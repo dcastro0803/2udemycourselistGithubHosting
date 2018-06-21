@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+.App-header {
+  background-color: #222;
+  padding: 10px;
+  padding-bottom: 1px;
+  color: white;
+}
+
+.App-header:hover,
+.App-header:focus {
+  opacity: .8;
+  transition: opacity 0.5s ease-in;
+
+}
+
+.App-title {
+  font-size: 2em;
+  margin: 10px;
+}
+.App-title:hover {
+  transform: scale(1.5);
+  transition-duration: 2s;
+  border-radius:25px;
+}
+
+
+header p:hover {
+  transform: scale(1.5);
+  transition-duration: 2s;
+  border-radius:25px;
+}
+
+.App-intro {
+  font-size: large;
+}
+#textalone {
+  font: 1.2em Tahoma, Helvetica, Arial, Sans-Serif;
+  text-shadow: 0px 2px 3px #555;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
